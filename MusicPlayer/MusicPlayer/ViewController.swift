@@ -10,6 +10,7 @@ import AVFoundation
 
 class ViewController: UIViewController, AVAudioPlayerDelegate {
     
+    // MARK: - Properties
     var player: AVAudioPlayer!
     var timer: Timer!
 
@@ -22,6 +23,7 @@ class ViewController: UIViewController, AVAudioPlayerDelegate {
         self.initializePlayer()
     }
     
+    // MARK: - initailizedPlayer
     func initializePlayer() {
         
         // soundAsset 이 nil 일때 실행 후 함수 탈출
