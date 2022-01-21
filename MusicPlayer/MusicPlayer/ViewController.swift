@@ -13,6 +13,7 @@ class ViewController: UIViewController, AVAudioPlayerDelegate {
     // MARK: - Properties
     var player: AVAudioPlayer!
     var timer: Timer!
+    
 
     @IBOutlet weak var playPauseButton: UIButton!
     @IBOutlet weak var progressSlider: UISlider!
